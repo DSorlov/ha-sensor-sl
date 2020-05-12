@@ -5,7 +5,7 @@
 [![maintained](https://img.shields.io/maintenance/yes/2019.svg)](#)
 [![maintainer](https://img.shields.io/badge/maintainer-daniel%20sörlöv-blue.svg)](https://github.com/DSorlov) 
 
-| :warning: | This project is moving to a new location. Please update!<br/>  New location is [hasl-sensor](http://github.com/hasl-platform/hasl-sensor) at [hasl-platform](http://github.com/hasl-platform) |
+| :warning: | This project is moving to a new location. Please update!<br/>  New location is [http://github.com/hasl/integration](http://github.com/hasl/integration) |
 | --- | --- |
 
 Home Assistant SL Sensor (HASL)

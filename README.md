@@ -6,6 +6,9 @@
 [![maintainer](https://img.shields.io/badge/maintainer-daniel%20sörlöv-blue.svg)](https://github.com/DSorlov)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+| :warning: | This is the legacy 2.x version. Version 3 is under development<br/>  Keep an eye on [http://github.com/hasl-sensor/integration](http://github.com/hasl-sensor/integration) |
+| --- | --- |
+
 Home Assistant SL Sensor (HASL)
 ===============================
 

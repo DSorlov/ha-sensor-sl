@@ -1,6 +1,4 @@
-﻿# ha-sensor-sl
-
-Changelog for HomeAssistant SL Sensor (HASL).
+﻿# Changelog for HomeAssistant SL Sensor (HASL).
 
 The format is based on [Keep a Changelog][keep-a-changelog]
 <!-- and this project adheres to [Semantic Versioning][semantic-versioning]. -->
@@ -69,9 +67,9 @@ The format is based on [Keep a Changelog][keep-a-changelog]
 - `tl2` sensor is now `status`, will remove `tl2` in 2.5.0. Please change your config.
 
 ### Changed
-- Fix [#23](https://github.com/DSorlov/ha-sensor-sl/issues/23) timewindow not working
-- Fix [#24](https://github.com/DSorlov/ha-sensor-sl/issues/24) default scan_interval documentation bug
-- Fix [#25](https://github.com/DSorlov/ha-sensor-sl/issues/25) stupid bug introduced by DSorlov =)
+- Fix [#23](https://github.com/DSorlov/hasl-platform/issues/23) timewindow not working
+- Fix [#24](https://github.com/DSorlov/hasl-platform/issues/24) default scan_interval documentation bug
+- Fix [#25](https://github.com/DSorlov/hasl-platform/issues/25) stupid bug introduced by DSorlov =)
 - PEP8 Compliance
 - Branched all display cards to new project [hasl-cards](https://github.com/DSorlov/hasl-cards).
 - Renamed repository from ha-sensor-sl to hasl-platform to conform to new naming.
@@ -85,12 +83,12 @@ The format is based on [Keep a Changelog][keep-a-changelog]
 ## [2.0.2] (2019-04-30)
 
 ### Changed
-- Fixed [#19](https://github.com/DSorlov/ha-sensor-sl/issues/19) Small changes for custom_updater
+- Fixed [#19](https://github.com/DSorlov/hasl-platform/issues/19) Small changes for custom_updater
 
 ## [2.0.1] (2019-04-30)
 
 ### Changed
-- Fixed [#18](https://github.com/DSorlov/ha-sensor-sl/issues/18) missing indentation in sensor.py
+- Fixed [#18](https://github.com/DSorlov/hasl-platform/issues/18) missing indentation in sensor.py
 
 ## [2.0.0] (2019-04-30)
 
@@ -123,7 +121,7 @@ The format is based on [Keep a Changelog][keep-a-changelog]
 
 ### Changed
 - Missing default value for direction parameter
-- Integrated magic to better show time left to departure from fork [lokanx-home-assistant](https://github.com/lokanx-home-assistant/ha-sensor-sl/commit/df7de55f040a7fab5b15be176ec5d61400b1dbba)
+- Integrated magic to better show time left to departure from fork [lokanx-home-assistant](https://github.com/lokanx-home-assistant/hasl-platform/commit/df7de55f040a7fab5b15be176ec5d61400b1dbba)
 - Added support for languages (sv-SE and en-EN) in sl-card.js
 
 ## [1.0.2] (2019-04-16)
@@ -223,28 +221,29 @@ The format is based on [Keep a Changelog][keep-a-changelog]
 - Log error code.
 
 [keep-a-changelog]: http://keepachangelog.com/en/1.0.0/
-[Unreleased]: https://github.com/DSorlov/ha-sensor-sl/compare/master...DSorlov:dev
-[2.2.3]: https://github.com/DSorlov/ha-sensor-sl/compare/2.2.3...2.2.2
-[2.2.2]: https://github.com/DSorlov/ha-sensor-sl/compare/2.2.2...2.2.1
-[2.2.1]: https://github.com/DSorlov/ha-sensor-sl/compare/2.2.1...2.2.0
-[2.2.0]: https://github.com/DSorlov/ha-sensor-sl/compare/2.2.0...2.1.3
-[2.1.3]: https://github.com/DSorlov/ha-sensor-sl/compare/2.1.3...2.1.2
-[2.1.2]: https://github.com/DSorlov/ha-sensor-sl/compare/2.1.1...2.1.2
-[2.1.1]: https://github.com/DSorlov/ha-sensor-sl/compare/2.1.0...2.1.1
-[2.1.0]: https://github.com/DSorlov/ha-sensor-sl/compare/2.0.3...2.1.0
-[2.0.3]: https://github.com/DSorlov/ha-sensor-sl/compare/2.0.2...2.0.3
-[2.0.2]: https://github.com/DSorlov/ha-sensor-sl/compare/2.0.1...2.0.2
-[2.0.1]: https://github.com/DSorlov/ha-sensor-sl/compare/2.0.0...2.0.1
-[2.0.0]: https://github.com/DSorlov/ha-sensor-sl/compare/1.0.3...2.0.0
-[1.0.3]: https://github.com/DSorlov/ha-sensor-sl/compare/1.0.2...1.0.3
-[1.0.2]: https://github.com/DSorlov/ha-sensor-sl/compare/1.0.1...1.0.2
-[1.0.1]: https://github.com/DSorlov/ha-sensor-sl/compare/1.0.0...1.0.1
-[1.0.0]: https://github.com/DSorlov/ha-sensor-sl/compare/0.0.8...1.0.0
-[0.0.8]: https://github.com/DSorlov/ha-sensor-sl/compare/0.0.7...0.0.8
-[0.0.7]: https://github.com/DSorlov/ha-sensor-sl/compare/0.0.6...0.0.7
-[0.0.6]: https://github.com/DSorlov/ha-sensor-sl/compare/0.0.5...0.0.6
-[0.0.5]: https://github.com/DSorlov/ha-sensor-sl/compare/v0.0.4...0.0.5
-[0.0.4]: https://github.com/DSorlov/ha-sensor-sl/compare/v0.0.3...v0.0.4
-[0.0.3]: https://github.com/DSorlov/ha-sensor-sl/compare/v0.0.2...v0.0.3
+[Unreleased]: https://github.com/DSorlov/hasl-platform/compare/master...DSorlov:dev
+[2.2.4]: https://github.com/DSorlov/hasl-platform/compare/2.2.3...2.2.4
+[2.2.3]: https://github.com/DSorlov/hasl-platform/compare/2.2.3...2.2.2
+[2.2.2]: https://github.com/DSorlov/hasl-platform/compare/2.2.2...2.2.1
+[2.2.1]: https://github.com/DSorlov/hasl-platform/compare/2.2.1...2.2.0
+[2.2.0]: https://github.com/DSorlov/hasl-platform/compare/2.2.0...2.1.3
+[2.1.3]: https://github.com/DSorlov/hasl-platform/compare/2.1.3...2.1.2
+[2.1.2]: https://github.com/DSorlov/hasl-platform/compare/2.1.1...2.1.2
+[2.1.1]: https://github.com/DSorlov/hasl-platform/compare/2.1.0...2.1.1
+[2.1.0]: https://github.com/DSorlov/hasl-platform/compare/2.0.3...2.1.0
+[2.0.3]: https://github.com/DSorlov/hasl-platform/compare/2.0.2...2.0.3
+[2.0.2]: https://github.com/DSorlov/hasl-platform/compare/2.0.1...2.0.2
+[2.0.1]: https://github.com/DSorlov/hasl-platform/compare/2.0.0...2.0.1
+[2.0.0]: https://github.com/DSorlov/hasl-platform/compare/1.0.3...2.0.0
+[1.0.3]: https://github.com/DSorlov/hasl-platform/compare/1.0.2...1.0.3
+[1.0.2]: https://github.com/DSorlov/hasl-platform/compare/1.0.1...1.0.2
+[1.0.1]: https://github.com/DSorlov/hasl-platform/compare/1.0.0...1.0.1
+[1.0.0]: https://github.com/DSorlov/hasl-platform/compare/0.0.8...1.0.0
+[0.0.8]: https://github.com/DSorlov/hasl-platform/compare/0.0.7...0.0.8
+[0.0.7]: https://github.com/DSorlov/hasl-platform/compare/0.0.6...0.0.7
+[0.0.6]: https://github.com/DSorlov/hasl-platform/compare/0.0.5...0.0.6
+[0.0.5]: https://github.com/DSorlov/hasl-platform/compare/v0.0.4...0.0.5
+[0.0.4]: https://github.com/DSorlov/hasl-platform/compare/v0.0.3...v0.0.4
+[0.0.3]: https://github.com/DSorlov/hasl-platform/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/fredrikbaberg/ha-sensor-sl/releases/tag/v0.0.2
 [0.0.1]: https://github.com/fuffenz/ha-sensor-sl

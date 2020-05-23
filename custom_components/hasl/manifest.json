@@ -7,4 +7,4 @@
   "after_dependencies": [],
   "codeowners": ["@DSorlov"],
   "requirements": ["hasl==2.3.1"]
-} 
+}

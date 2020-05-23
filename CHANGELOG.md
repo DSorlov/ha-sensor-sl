@@ -8,6 +8,11 @@ The format is based on [Keep a Changelog][keep-a-changelog]
 ## [Unreleased]
 - Nothing right now
 
+## [2.2.4] (2020-05-23)
+
+### Changed
+- Documentation updates
+
 ## [2.2.3] (2020-03-04)
 
 ### Changed

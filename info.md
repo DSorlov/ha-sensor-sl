@@ -3,14 +3,9 @@ Home Assistant SL Sensor (HASL)
 
 This is a platform for Home Assistant that can be used to create "Departure board" or "Traffic Situation" sensors for buses and trains in Stockholm, Sweden. You have to install it as a custom component and you need to get your own API keys from SL / Trafiklab. This is a fork of fredrikbaberg SL sensor (https://github.com/fredrikbaberg/ha-sensor-sl).
 
->__NOTE__: If you are using pre 0.92 version of Home Assistant you will need to use release 1.0.3 or older from here and follow the instructions in the release files there instead (and there is some known issues with that release). The below information is for 0.92 or later versions of Home Assistant only.
-
 ## Automatic installation using HACS
 
 First, visit [https://www.trafiklab.se/api](https://www.trafiklab.se/api) and create a free account. They provide multiple APIs, the ones you want is ["SL Trafikinformation 4"](https://www.trafiklab.se/api/sl-realtidsinformation-4) and ["SL Störningsinformation 2"](https://www.trafiklab.se/api/sl-storningsinformation-2), optionally you can also register for ["SL Trafikläget 2"](https://www.trafiklab.se/api/sl-trafiklaget-2) to get status sensors. When you have your API keys, you're ready to add the component to your Home Assistant.
-
-This is a custom component so not installed by default in your Home Assistant install. However it can be easily installed and updated using [HACS](https://custom-components.github.io/hacs/) where this integration is included by default under the integration headline.
-By using HACS you will also make sure that any new versions are installed by default and as simple as the install itself.
 
 After you added the integration then add the desired configuration in config. Here is an example of a typical configuration:
 
@@ -31,19 +26,6 @@ sensor:
 ```
 
 Restart Home Assistant to make sure it loads and calls the integration!
-
-## Manual installation (not advised)
-
-The integration can be installed manually by copying some files from this repo to your install. Also you will need to create API key and config as outlined in the previous section.
-Note that HASL will not automatically update as newer versions are released so you need to keep track of that yourself. We recomend using HACS as outlined above in the previous section.
-
-Please copy files:
-
-[`hasl/__init__.py`](https://github.com/DSorlov/ha-sensor-sl/blob/hasl/custom_components/hasl/__init__.py) to `<config>/custom_components/hasl/__init__.py`
-[`hasl/sensor.py`](https://github.com/DSorlov/ha-sensor-sl/blob/hasl/custom_components/hasl/sensor.py) to `<config>/custom_components/hasl/sensor.py`
-[`hasl/manifest.json`](https://github.com/DSorlov/ha-sensor-sl/blob/hasl/custom_components/hasl/manifest.json) to `<config>/custom_components/hasl/manifest.json`
-
-where `<config>` is your Home Assistant configuration directory.
 
 ## Configuration variables
 | Name | Required? | Description | Default |
